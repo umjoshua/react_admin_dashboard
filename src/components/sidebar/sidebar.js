@@ -10,9 +10,11 @@ import './sidebar.css';
 import { Link } from "react-router-dom";
 
 
-function SideBarItem({ icon, text }) {
+function SideBarItem({ icon, text,Link }) {
     return (
-        <li className='item'>
+        <li className='item' id={window.location.pathname == Link ? "active":""} onClick={()=>{
+            window.location.pathname=Link;
+        }}>
             <span className="icon">{icon}</span>
             <span className="text">{text}</span>
         </li >
@@ -24,13 +26,9 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar_main">
                 <ul>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
-                        <SideBarItem icon={<HomeIcon />} text="Dashboard" />
-                    </Link>
-                    <Link to='trucks' style={{ textDecoration: 'none' }}>
-                        <SideBarItem icon={<WindowIcon />} text="Trucks" />
-                    </Link>
-                    <SideBarItem icon={<ContentCopyIcon />} text="Supplies" />
+                    <SideBarItem icon={<HomeIcon />} text="Dashboard" Link="/" />
+                    <SideBarItem icon={<WindowIcon />} text="Trucks" Link="/trucks" />
+                    <SideBarItem icon={<ContentCopyIcon />} text="Supplies"/>
                 </ul>
                 <span class="title">HELP</span>
                 <ul>
