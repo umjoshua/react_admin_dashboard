@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    height: 50px;
+}
+.left{
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.header_icons{
+    padding: 10px;
+    color: white;
+}
+.supply{
+    color: white;
+}
+.right{
+    position: fixed;
+    right: 0%;
+    float: right;
+    align-items: center;
+}

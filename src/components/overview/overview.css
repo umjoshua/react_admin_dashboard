@@ -1,0 +1,14 @@
+.widget{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+    height:fit-content;
+    width:max-content;
+    border-radius: 10px;
+}
+.cities{
+    
+}

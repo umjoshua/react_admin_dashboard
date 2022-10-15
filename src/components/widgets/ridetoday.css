@@ -1,0 +1,38 @@
+.widget{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+    height:fit-content;
+    width:max-content;
+    border-radius: 10px;
+}
+.l_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;  
+}
+.title{
+    font-weight: bold;
+}
+.b_side{
+    margin-top: 10px;
+}
+.b_title{
+    padding: 10px;
+}
+.b_item{
+    padding: 20px;
+}
+.numbers{
+    font-size:x-large;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

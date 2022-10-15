@@ -1,0 +1,40 @@
+.sidebar{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 253);
+    left: 0;
+    width: 225px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.icon{
+    margin-left: 20px;
+    color: #767676;
+    width: 30px;
+}
+.text{
+    margin-left: 12px;
+    padding-left: 0;
+    color: #767676;
+}
+.title{
+    margin-left: 25px;
+    color: #767676;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left:0;
+    border-bottom: 0.5px solid #999595;
+    margin-bottom: 20px;
+}
+li:hover{
+    background-color: #fcf7f7;
+}
