@@ -1,4 +1,4 @@
-.header{
+/* .header{
     display: flex;
     background-color: blue;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     float: left;
     align-items: center;
 }
-.header_icons{
+.head_ico{
     padding: 10px;
     color: white;
 }
@@ -21,4 +21,36 @@
     right: 0%;
     float: right;
     align-items: center;
+} */
+.header{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #494FFE;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    color: white;
+    justify-content: space-between;
+}
+.left_icon{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.supply{
+    padding: 10px;
+}
+.icons{
+    position: fixed;
+    right: 0%;
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.main_icons{
+    cursor: pointer;
+    padding: 20px;
 }

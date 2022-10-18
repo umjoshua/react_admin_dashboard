@@ -4,9 +4,10 @@ import Header from '../../components/header/header'
 import RisesToday from '../../components/widgets/RidesToday';
 import TopSupplies from '../../components/widgets/TopSupplies';
 import './home.css'
-import Overview from '../../components/overview/Overview';
+import Overview from '../../components/widgets/Overview';
 import City_info from '../../components/widgets/City_info'
 import BTable from '../../components/widgets/table';
+import RevenueBreakdown from '../../components/widgets/RevenueBreakdown';
 function Home() {
     return (
         <div className='home'>
@@ -18,15 +19,15 @@ function Home() {
                         <RisesToday />
                         <TopSupplies />
                         <Overview />
-                        <RisesToday />
+                        <RevenueBreakdown/>
                     </div>
                     <div className="second">
-                        <City_info city='Chennai' count='199' completed='33' onTime='3.25' supplies='330' color='#4636f7' depr='-3.7'/>
-                        <City_info city='Mumbai' count='27' completed='2' onTime='4.5' supplies='20' color='#dea233' depr='+2.5'/>
-                        <City_info city='Banglore' count='44' completed='15' onTime='10.1' supplies='150' color='#f720a1' depr='+3.1'/>
+                        <City_info city='Chennai' count='27' completed='2' onTime='4.5' supplies='20' color='blue' depr='+2.5' />
+                        <City_info city='Mumbai' count='27' completed='2' onTime='4.5' supplies='20' color='#dea233' depr='+2.5' />
+                        <City_info city='Banglore' count='27' completed='2' onTime='4.5' supplies='20' color='red' depr='+2.5' />
                     </div>
                     <div className="third">
-                        <BTable/>
+                        <BTable />
                     </div>
                 </div>
             </div>

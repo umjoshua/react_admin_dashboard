@@ -1,0 +1,64 @@
+.widget{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: red;
+    height: 150px;
+    width: 240px;
+    border-radius: 10px;
+}
+.l_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; 
+}
+.b_side{
+    margin-top: 10px;
+}
+.b_title{
+    padding: 10px;
+}
+.b_item{
+    padding: 20px;
+}
+.numbers{
+    font-size:x-large;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donut{
+    height: 150px;
+    width: 240px;
+}
+.rides_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rides_details > span{
+    padding-left: 10px;
+}
+.rides_chart{
+    padding-left: 30%;
+    height: 40px;
+}
+.supply_main{
+    margin-bottom: 15px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.cities{
+    display: flex;
+    padding: 2%;
+    max-height: 20px;
+}
+.supply_chart{
+    padding-left: 20px;
+}

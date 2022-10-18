@@ -1,6 +1,7 @@
 import React from 'react'
-import './ridetoday.css'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import './widgets.css'
+import Chart from './Charts';
 
 function RisesToday() {
   return (
@@ -9,7 +10,10 @@ function RisesToday() {
         <span className='title'>Rides Today</span>
         <div className='r_side'><MoreVertIcon /></div>
       </div>
-      <span className='numbers'>126</span>
+      <div className="rides_details">
+        <span className='numbers'>126</span>
+        <div className="rides_chart"><Chart color={'orange'} /></div>
+      </div>
       <div className='b_side'>
         <div>
           <span className='b_title'>Total</span>

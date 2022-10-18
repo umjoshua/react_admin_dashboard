@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import './city_info.css';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, ResponsiveContainer } from 'recharts';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import SouthEastIcon from '@mui/icons-material/SouthEast';
 

@@ -7,12 +7,11 @@ import ModeCommentIcon from '@mui/icons-material/ModeComment';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import UpgradeIcon from '@mui/icons-material/Upgrade';
 import './sidebar.css';
-import { Link } from "react-router-dom";
 
 
 function SideBarItem({ icon, text,Link }) {
     return (
-        <li className='item' id={window.location.pathname == Link ? "active":""} onClick={()=>{
+        <li className='item' id={window.location.pathname === Link ? "active":""} onClick={()=>{
             window.location.pathname=Link;
         }}>
             <span className="icon">{icon}</span>
