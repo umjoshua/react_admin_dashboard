@@ -1,4 +1,3 @@
-
 import Home from './pages/home/Home';
 import Trucks from './pages/trucks/Trucks';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
