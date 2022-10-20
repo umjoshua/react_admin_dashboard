@@ -10,7 +10,7 @@ function Trucks() {
         <div className='home'>
             <div className="header"><Header /></div>
             <div className="container" class="w-full flex flex-row">
-            <div class="h-full w-72" ><Sidebar /></div>
+            <div class="w-72" ><Sidebar /></div>
                 {isLoaded && <Map></Map>}
             </div>
         </div>

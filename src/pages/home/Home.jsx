@@ -13,7 +13,7 @@ function Home() {
         <div class="w-full h-full flex flex-col bg-gray-100">
             <div><Header /></div>
             <div class="w-full h-full flex flex-row">
-                <div class="w-72 bg-red-500" ><Sidebar /></div>
+                <div class="w-72" ><Sidebar /></div>
                 <div class="relative w-full table">
                     <div class="relative w-full flex flex-row flex-wrap">
                         <RisesToday />
