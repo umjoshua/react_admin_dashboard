@@ -16,11 +16,11 @@ function Overview() {
             </div>
             <div class="flex flex-row w-full h-1/3 justify-around">
                 <span class="text-sm flex w-1/2 m-auto">Chennai Supplies</span>
-                <div class="flex-auto h-1/2 w-1/3 m-auto mr-2"><Chart color={'orange'} /></div>
+                <div class="flex-auto h-1/2 w-1/3 m-auto mr-2"><Chart color={'green'} /></div>
             </div>
             <div class="flex flex-row w-full h-1/3 justify-around">
                 <span class="text-sm flex w-1/2 m-auto">Mumbai Supplies</span>
-                <div class="flex-auto h-1/2 w-1/3 m-auto mr-2"><Chart color={'orange'} /></div>
+                <div class="flex-auto h-1/2 w-1/3 m-auto mr-2"><Chart color={'yellow'} /></div>
             </div>
         </div>
     )

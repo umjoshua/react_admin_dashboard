@@ -10,10 +10,10 @@ import RevenueBreakdown from '../../components/widgets/RevenueBreakdown';
 
 function Home() {
     return (
-        <div class="w-full h-full flex flex-col bg-yellow-50 justify-around">
+        <div class="w-full h-full flex flex-col bg-gray-100">
             <div><Header /></div>
             <div class="w-full h-full flex flex-row">
-                <div class="h-full w-72" ><Sidebar /></div>
+                <div class="w-72 bg-red-500" ><Sidebar /></div>
                 <div class="relative w-full table">
                     <div class="relative w-full flex flex-row flex-wrap">
                         <RisesToday />
