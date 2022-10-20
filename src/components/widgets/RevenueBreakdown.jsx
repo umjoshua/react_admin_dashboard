@@ -16,7 +16,7 @@ function RevenueBreakdown() {
   }
 
   return (
-    <div class="w-1/5 bg-white p-4 m-4 rounded-md flex flex-col justify-between ">
+    <div class="relative w-full lg:w-6/12 xl:w-3/12 bg-white p-4 m-4 rounded-md flex flex-col justify-between ">
       <div class="flex flex-row justify-between p-2">
         <span class="font-bold text-gray-500" >Revenue Breakdown</span>
         <div><MoreVertIcon /></div>

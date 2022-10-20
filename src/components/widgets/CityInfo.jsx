@@ -82,7 +82,7 @@ function CityInfo({city,count,completed,onTime,supplies,color,depr}) {
     };
 
     return (
-        <div class="w-1/4 h-72 bg-white p-2 m-4 rounded-md flex flex-col justify-between" style={{width:'30%'}}>
+        <div class="h-72 bg-white p-2 m-4 rounded-md flex flex-col justify-between">
             <div className='top'>
                 <span>{city}</span>
                 <Dropdown
