@@ -69,7 +69,7 @@ const Chart = ({fill}) => {
     )
 }
 
-function City_info({city,count,completed,onTime,supplies,color,depr}) {
+function CityInfo({city,count,completed,onTime,supplies,color,depr}) {
     const options = [
         { label: 'Daily', value: 'daily' },
         { label: 'Weekly', value: 'weekly' },
@@ -82,7 +82,7 @@ function City_info({city,count,completed,onTime,supplies,color,depr}) {
     };
 
     return (
-        <div className='card'>
+        <div class="w-1/4 h-72 bg-white p-2 m-4 rounded-md flex flex-col justify-between" style={{width:'30%'}}>
             <div className='top'>
                 <span>{city}</span>
                 <Dropdown
@@ -115,4 +115,4 @@ function City_info({city,count,completed,onTime,supplies,color,depr}) {
     )
 }
 
-export default City_info
+export default CityInfo

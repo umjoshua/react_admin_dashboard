@@ -9,10 +9,10 @@ import UpgradeIcon from '@mui/icons-material/Upgrade';
 import './sidebar.css';
 
 
-function SideBarItem({ icon, text,Link }) {
+function SideBarItem({ icon, text, Link }) {
     return (
-        <li className='item' id={window.location.pathname === Link ? "active":""} onClick={()=>{
-            window.location.pathname=Link;
+        <li className='item' id={window.location.pathname === Link ? "active" : ""} onClick={() => {
+            window.location.pathname = Link;
         }}>
             <span className="icon">{icon}</span>
             <span className="text">{text}</span>
@@ -20,14 +20,13 @@ function SideBarItem({ icon, text,Link }) {
     )
 }
 function Sidebar() {
-
     return (
         <div className="sidebar">
             <div className="sidebar_main">
                 <ul>
                     <SideBarItem icon={<HomeIcon />} text="Dashboard" Link="/" />
                     <SideBarItem icon={<WindowIcon />} text="Trucks" Link="/trucks" />
-                    <SideBarItem icon={<ContentCopyIcon />} text="Supplies"/>
+                    <SideBarItem icon={<ContentCopyIcon />} text="Supplies" />
                 </ul>
                 <span class="title">HELP</span>
                 <ul>

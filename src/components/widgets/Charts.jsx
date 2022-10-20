@@ -1,6 +1,5 @@
 import React from 'react'
 import { AreaChart, Area, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import './chart.css'
 
 const data = [
   {
@@ -27,13 +26,13 @@ const data = [
 
 function Card(props) {
   return (
-    <div className='chart'>
+    <div class="h-full w-full">
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart
           data={data}
           margin={{
-            top: 10,
-            bottom: 60
+            top: 0,
+            bottom: 0,
           }}
         >
           <CartesianGrid strokeDasharray="5 5" />
