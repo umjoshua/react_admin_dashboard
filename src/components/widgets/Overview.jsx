@@ -5,7 +5,7 @@ import Chart from './Charts';
 
 function Overview() {
     return (
-        <div class="relative w-25% sm:w-100% bg-white p-4 m-4 rounded-md flex flex-col justify-between" >
+        <div class="float-left sm:w-98% md:w-23% h-72 bg-white p-2 m-4 rounded-md justify-between flex flex-col" >
             <div class="flex flex-row justify-between p-2">
                 <span class="font-bold text-gray-500" >Supply Overview</span>
                 <div ><MoreVertOutlined /></div>
